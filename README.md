@@ -48,6 +48,12 @@ The InsideGPT chatbot application uses a pre-trained neural network model to pre
 
 The application uses the Natural Language Toolkit (NLTK) library to tokenize and lemmatize user messages and a bag-of-words model to represent them as input for the neural network. The chatbot's responses are generated based on a set of predefined intents and responses defined in the "intents.json" file.
 
+## Demo ScreenShots of the UI:
+1. ![image](https://user-images.githubusercontent.com/85414445/232205669-c9587bb3-bb5e-4db9-9083-7cb9067ccd40.png)
+2. ![image](https://user-images.githubusercontent.com/85414445/232205691-a72daa4b-5437-47b0-b664-22d17c2fd812.png)
+3. ![image](https://user-images.githubusercontent.com/85414445/232205713-9c2e7325-917c-4198-96b5-8dd5b057a097.png)
+
+
 ## Contributing
 If you find any issues or bugs in the InsideGPT chatbot application, feel free to open an issue or submit a pull request. We welcome contributions from the community.
 
