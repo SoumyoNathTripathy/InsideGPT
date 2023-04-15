@@ -1,0 +1,66 @@
+{
+    "intents": [
+      {"tag": "greeting",
+       "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+       "responses": ["Hi Soumyo", "Yebo yes, how can I help", "Ey watsupp", "Ekse Hoezit", "Hola", "Hey dude", "You again"]
+      },
+      {"tag": "bio",
+       "patterns": ["What is Soumyo's bio", "Tell me about Soumyo's bio", "Linkedin Bio?"],
+       "responses": ["SWE intern@Trailytics| ex-Machine Learning intern@IIT Kharagpur| ex-DS intern@LGM, The Sparks Foundation| OpenSource Mentor@OpenCode|ex-DSA intern@TwoWaits|GSSoC'22|ex-intern@Delloite"]
+      },
+      {"tag": "thanks",
+       "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+       "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+      },
+      {"tag": "noanswer",
+       "patterns": [],
+       "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+       },
+       {"tag": "name",
+        "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you",  "Tell me about yourself"],
+        "responses": ["Soumyo Nath Tripathy"]
+        },
+        {"tag": "education",
+         "patterns": ["Tell me about Soumyo's education", "Education of Soumyo", "Soumyo's College ", "What is the college name of Soumyo"],
+         "responses": ["Studying B-Tech in Institute of Engineering and Management,Kolkata in CSE(AIML) with a cgpa of 9.72"]
+        },
+        {"tag": "school",
+         "patterns": ["Tell me about Soumyo's school", "Education of Soumyo in school", "Soumyo's school", "What is the school name of Soumyo"],
+         "responses": ["Studying  in Mansur Habibullah Memorial School in ICSE board"]
+        },
+        {"tag": "certificates",
+         "patterns": ["Soumyo's certification", "What are the certificates gained"],
+         "responses": ["30DaysOfCloud for Google Cloud Community India", "Javascript and ReactJS from Google Developers", "Python and Machine Learning from Google Developers Group","Python Basics for Data Science from edX"]
+        },
+       {"tag": "Projects",
+        "patterns": ["Projects?", "What can you tell me about your projects", "What projects have you done"],
+        "responses": ["VAE Siamese fusion of Satellite imagery and Smart Traffic Management System"]
+        },
+        {"tag": "Experience",
+         "patterns": ["Your work experience", "Internships and work experience", "What are your internships"],
+         "responses": [
+           "Python Developer intern at Trailytics",
+           " Summer Research Intern at Indian Institute of Technology, Kharagpur"
+         ]
+         
+        },
+        {"tag": "skill",
+         "patterns": ["Your skills", "what are your skills"],
+         "responses": [
+           "Python , SQL, Java, Data Analysis , machine Learning, Falsk, MongodB, HTML, CSS, Microsoft Excel, Microsoft Office" ]
+         
+        },
+        {"tag": "Volunteering",
+         "patterns": ["Your Volunteering Experience", "Volunteering experience"],
+         "responses": [
+           "SERB INAE HACKATHON 2022 at Jadavpur University", "HackOdisha 2.0 at NIT -Rourklea" ]
+         
+        },
+        {"tag": "awards",
+         "patterns": ["His awards", "Soumyo's awards", "Awards gained ny him"],
+         "responses": [
+           "Github Student Developer Pack from Github in December 2022" ]
+         
+        }
+    ]
+  }
