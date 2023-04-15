@@ -37,7 +37,7 @@ Run the following command:
 python app.py
 
 ```
-- Open your web browser and navigate to http://localhost:5000.
+- Open your web browser and navigate to http://127.0.0.1:5000/.
 
 - Type your questions or queries into the chatbot interface and press Enter.
 
